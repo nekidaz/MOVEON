@@ -1,0 +1,101 @@
+.function {
+    height: 1291px;
+    padding: 99px 0 74px 0;
+    margin: 0 auto;;
+
+
+    &__header {
+        font-weight: 500;
+        font-size: 46px;
+        line-height: 66px;
+        color: #000000;
+        text-align: center;
+    }
+
+    &__subtitle {
+        margin-top: 23px;
+        margin: 0 auto;
+        width: 424px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 124%;
+        text-align: center;
+        letter-spacing: 0.08em;
+        color: #ABABAB;
+    }
+
+    &__wrapper {
+        margin-top: 101px;
+        display: flex;
+        justify-content: center;
+       
+    }
+    &__second{
+        margin: 0 88px 0 88px;
+    }
+    &__first{
+       margin-top: 80px;
+    }
+    
+
+    &__block {
+        display: flex;
+        width: 437px;
+        margin-top: 174px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &__descr {
+            width: 321px;
+            margin-right: 26px;
+           
+        }
+
+        &__header {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 124%;
+            text-align: right;
+            color: #000000;
+            
+        }
+
+        &__subtitle {
+            margin-top: 11px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 124%;
+            text-align: right;
+            color: #B0B0B0;
+        }
+
+        &__icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(180deg, #8253D8 0%, #D05DDE 100%);
+            border-radius: 100%;
+        }
+    }
+    &__third{
+        margin-top: 80px;
+        .function__block{
+            &__descr {
+                width: 321px;
+                margin-left: 26px;
+                margin-right: 0;
+            }
+            &__header{
+                text-align: left;
+
+            }
+            &__subtitle{
+                text-align: left;
+            }
+        }
+    }
+}

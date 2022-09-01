@@ -1,0 +1,44 @@
+.footer {
+    height: 522.169921875px;
+    background: url("../../img/Pfbg.svg") center center / cover no-repeat;
+    padding-top: 184px;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 518px 315px 237px;
+        column-gap: 100px;
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 124%;
+        color: #FFFFFF;
+        margin-bottom: 13px;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 124%;
+        color: #FFFFFF;
+        &-c{
+            line-height: 160%;
+            font-weight: 400;
+            font-size: 18px;
+          
+            color: #FFFFFF;
+        }
+    }
+    &__social{
+        img {
+            margin-right: 20px;
+            transition: all 0.5s;
+
+            &:hover {
+                transition: all 0.5s;
+                transform: scale(120%);
+            }
+        }
+    }
+}
